@@ -239,7 +239,7 @@ router.put('/add_noSupply',async (req,resp)=>{
 
 
 // to fetch all the customer
-router.get('/fetch_customer',async (req,resp)=>{
+router.post('/fetch_customer',async (req,resp)=>{
 
     const seller_phoneno =  req.body.sellerPn; 
 
