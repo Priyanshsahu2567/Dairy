@@ -245,7 +245,7 @@ router.get('/fetch_customer',async (req,resp)=>{
 
     try{
         const customers = await customer.find({
-            "sellerPn":"7828582123"
+            "sellerPn":seller_phoneno
         });
 
         if(customers){
