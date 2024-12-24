@@ -59,7 +59,7 @@ router.post('/add_customer',async(req,resp)=>{
 
 //  TO DELETE CUSTOMER
 
-router.delete('/delete_customer',async(req,resp)=>{
+router.post('/delete_customer',async(req,resp)=>{
 
     try {
 
